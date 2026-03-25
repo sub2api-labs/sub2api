@@ -9,11 +9,13 @@
 
   html {
     @apply scroll-smooth antialiased;
+    overscroll-behavior-y: none;
   }
 
   body {
     @apply bg-gray-50 text-gray-900 dark:bg-dark-950 dark:text-gray-100;
     @apply min-h-screen;
+    overscroll-behavior-y: none;
   }
 
   /* 自定义滚动条 - 仅针对 Firefox，避免 Chrome 取消 webkit 的全局定制 */
@@ -544,7 +546,7 @@
   .sidebar-header {
     @apply h-16 px-6;
     @apply flex items-center gap-3;
-    @apply border-b border-gray-100 dark:border-dark-800;
+    @apply border-b border-gray-200 dark:border-dark-800;
     transition:
       padding 0.2s ease,
       gap 0.2s ease;
