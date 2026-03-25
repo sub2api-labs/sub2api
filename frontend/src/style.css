@@ -534,7 +534,7 @@
   .sidebar-header {
     @apply h-16 px-6;
     @apply flex items-center gap-3;
-    @apply border-b border-gray-100 dark:border-dark-800;
+    @apply border-b border-gray-200 dark:border-dark-800;
   }
 
   .sidebar-nav {
