@@ -129,7 +129,7 @@ vite.config.js
 docs/*
 .serena/
 .codex/
+.omc/
 frontend/coverage/
 aicodex
 output/
-
