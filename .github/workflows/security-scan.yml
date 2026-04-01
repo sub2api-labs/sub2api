@@ -2,6 +2,8 @@ name: Security Scan
 
 on:
   push:
+    paths-ignore:
+      - 'backend/cmd/server/VERSION'
   pull_request:
   schedule:
     - cron: '0 3 * * 1'
